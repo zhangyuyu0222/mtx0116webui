@@ -1,0 +1,130 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-BGKFH2S",
+    "children" : [ {
+      "name" : "21816-MainThread",
+      "children" : [ {
+        "name" : "新增地址测试用例",
+        "uid" : "92734e5a5393b84b",
+        "parentUid" : "fa16c1c1635352c518f2c8ba81c3e307",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610767310223,
+          "stop" : 1610767337139,
+          "duration" : 26916
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login[args0]",
+        "uid" : "a61af4c194d184e8",
+        "parentUid" : "fa16c1c1635352c518f2c8ba81c3e307",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610767432866,
+          "stop" : 1610767439399,
+          "duration" : 6533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': '', 'pwd': '1234567', 'assert': 'am-radius am-field-error am-active'}" ]
+      }, {
+        "name" : "test_login[args4]",
+        "uid" : "c9c6017af37b0b94",
+        "parentUid" : "fa16c1c1635352c518f2c8ba81c3e307",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610767461736,
+          "stop" : 1610767469055,
+          "duration" : 7319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': 'yaoyao', 'pwd': 'yaoyao', 'assert': 'yaoyao，欢迎来到'}" ]
+      }, {
+        "name" : "下订单的测试用例",
+        "uid" : "df91a54811b8b689",
+        "parentUid" : "fa16c1c1635352c518f2c8ba81c3e307",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610767489790,
+          "stop" : 1610767506211,
+          "duration" : 16421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "加入购物车的测试用例",
+        "uid" : "dc93e0e226693d0c",
+        "parentUid" : "fa16c1c1635352c518f2c8ba81c3e307",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610767360011,
+          "stop" : 1610767371247,
+          "duration" : 11236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除购物车的测试用例",
+        "uid" : "4ab94a4eee5ea03f",
+        "parentUid" : "fa16c1c1635352c518f2c8ba81c3e307",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610767374803,
+          "stop" : 1610767417433,
+          "duration" : 42630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login[args3]",
+        "uid" : "7b1599e12ffa6b53",
+        "parentUid" : "fa16c1c1635352c518f2c8ba81c3e307",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610767454047,
+          "stop" : 1610767461727,
+          "duration" : 7680
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': 'yaoyao', 'pwd': '123456', 'assert': '密码错误'}" ]
+      }, {
+        "name" : "test_login[args2]",
+        "uid" : "910a365fca09f89c",
+        "parentUid" : "fa16c1c1635352c518f2c8ba81c3e307",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610767446589,
+          "stop" : 1610767454035,
+          "duration" : 7446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': 'lwx', 'pwd': 'yaoyao', 'assert': '帐号不存在'}" ]
+      }, {
+        "name" : "test_login[args1]",
+        "uid" : "8de4cbcca39aeae6",
+        "parentUid" : "fa16c1c1635352c518f2c8ba81c3e307",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610767439405,
+          "stop" : 1610767446572,
+          "duration" : 7167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': 'yaoyao', 'pwd': '', 'assert': 'am-radius am-field-error am-active'}" ]
+      } ],
+      "uid" : "fa16c1c1635352c518f2c8ba81c3e307"
+    } ],
+    "uid" : "4bc66a2cfd36ab8a2c5178a21442a3a2"
+  } ]
+}

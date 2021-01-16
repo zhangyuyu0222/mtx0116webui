@@ -1,0 +1,94 @@
+2021-01-14 19:37:36,009 INFO [root] [baseApi.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="9f1dee35970ee4978975bbfde39c30e2")>
+2021-01-14 19:37:36,014 INFO [root] [baseApi.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="9f1dee35970ee4978975bbfde39c30e2")>
+2021-01-14 19:37:36,014 INFO [root] [baseApi.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="9f1dee35970ee4978975bbfde39c30e2")>
+2021-01-14 19:37:36,015 INFO [root] [baseApi.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="9f1dee35970ee4978975bbfde39c30e2")>
+2021-01-14 19:37:36,016 INFO [root] [baseApi.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="9f1dee35970ee4978975bbfde39c30e2")>
+2021-01-14 19:37:36,016 INFO [root] [baseApi.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="9f1dee35970ee4978975bbfde39c30e2")>
+2021-01-14 19:37:36,016 INFO [root] [baseApi.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="9f1dee35970ee4978975bbfde39c30e2")>
+2021-01-14 19:37:36,058 INFO [root] [baseApi.py (base_click:28] - 正在点击:('link text', '登录')元素
+2021-01-14 19:37:36,059 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('link text', '登录')元素,最多等待: 30秒
+2021-01-14 19:37:37,374 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'accounts')元素 输入值是: 
+2021-01-14 19:37:37,375 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'accounts')元素,最多等待: 30秒
+2021-01-14 19:37:37,483 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'pwd')元素 输入值是: 1234567
+2021-01-14 19:37:37,484 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'pwd')元素,最多等待: 30秒
+2021-01-14 19:37:37,632 INFO [root] [baseApi.py (base_click:28] - 正在点击:('xpath', '//form/div[3]/button')元素
+2021-01-14 19:37:37,633 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('xpath', '//form/div[3]/button')元素,最多等待: 30秒
+2021-01-14 19:37:42,869 INFO [root] [baseApi.py (base_click:28] - 正在点击:('link text', '登录')元素
+2021-01-14 19:37:42,869 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('link text', '登录')元素,最多等待: 30秒
+2021-01-14 19:37:45,484 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'accounts')元素 输入值是: yaoyao
+2021-01-14 19:37:45,484 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'accounts')元素,最多等待: 30秒
+2021-01-14 19:37:45,678 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'pwd')元素 输入值是: 
+2021-01-14 19:37:45,678 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'pwd')元素,最多等待: 30秒
+2021-01-14 19:37:45,794 INFO [root] [baseApi.py (base_click:28] - 正在点击:('xpath', '//form/div[3]/button')元素
+2021-01-14 19:37:45,794 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('xpath', '//form/div[3]/button')元素,最多等待: 30秒
+2021-01-14 19:37:51,109 INFO [root] [baseApi.py (base_click:28] - 正在点击:('link text', '登录')元素
+2021-01-14 19:37:51,109 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('link text', '登录')元素,最多等待: 30秒
+2021-01-14 19:37:53,127 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'accounts')元素 输入值是: lwx
+2021-01-14 19:37:53,127 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'accounts')元素,最多等待: 30秒
+2021-01-14 19:37:53,459 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'pwd')元素 输入值是: yaoyao
+2021-01-14 19:37:53,460 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'pwd')元素,最多等待: 30秒
+2021-01-14 19:37:53,640 INFO [root] [baseApi.py (base_click:28] - 正在点击:('xpath', '//form/div[3]/button')元素
+2021-01-14 19:37:53,640 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('xpath', '//form/div[3]/button')元素,最多等待: 30秒
+2021-01-14 19:37:58,878 INFO [root] [baseApi.py (base_click:28] - 正在点击:('link text', '登录')元素
+2021-01-14 19:37:58,878 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('link text', '登录')元素,最多等待: 30秒
+2021-01-14 19:37:59,913 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'accounts')元素 输入值是: yaoyao
+2021-01-14 19:37:59,913 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'accounts')元素,最多等待: 30秒
+2021-01-14 19:38:00,049 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'pwd')元素 输入值是: 123456
+2021-01-14 19:38:00,050 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'pwd')元素,最多等待: 30秒
+2021-01-14 19:38:00,210 INFO [root] [baseApi.py (base_click:28] - 正在点击:('xpath', '//form/div[3]/button')元素
+2021-01-14 19:38:00,210 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('xpath', '//form/div[3]/button')元素,最多等待: 30秒
+2021-01-14 19:38:05,384 INFO [root] [baseApi.py (base_click:28] - 正在点击:('link text', '登录')元素
+2021-01-14 19:38:05,385 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('link text', '登录')元素,最多等待: 30秒
+2021-01-14 19:38:06,705 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'accounts')元素 输入值是: yaoyao
+2021-01-14 19:38:06,706 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'accounts')元素,最多等待: 30秒
+2021-01-14 19:38:06,875 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'pwd')元素 输入值是: yaoyao
+2021-01-14 19:38:06,875 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'pwd')元素,最多等待: 30秒
+2021-01-14 19:38:06,999 INFO [root] [baseApi.py (base_click:28] - 正在点击:('xpath', '//form/div[3]/button')元素
+2021-01-14 19:38:07,000 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('xpath', '//form/div[3]/button')元素,最多等待: 30秒
+2021-01-14 20:25:32,572 INFO [root] [baseApi.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="412beaf1b4a28b95d0ba11f2876f4cca")>
+2021-01-14 20:25:32,572 INFO [root] [baseApi.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="412beaf1b4a28b95d0ba11f2876f4cca")>
+2021-01-14 20:25:32,572 INFO [root] [baseApi.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="412beaf1b4a28b95d0ba11f2876f4cca")>
+2021-01-14 20:25:32,573 INFO [root] [baseApi.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="412beaf1b4a28b95d0ba11f2876f4cca")>
+2021-01-14 20:25:32,573 INFO [root] [baseApi.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="412beaf1b4a28b95d0ba11f2876f4cca")>
+2021-01-14 20:25:32,573 INFO [root] [baseApi.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="412beaf1b4a28b95d0ba11f2876f4cca")>
+2021-01-14 20:25:32,573 INFO [root] [baseApi.py (__init__:16] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="412beaf1b4a28b95d0ba11f2876f4cca")>
+2021-01-14 20:25:32,577 INFO [root] [baseApi.py (base_click:28] - 正在点击:('link text', '登录')元素
+2021-01-14 20:25:32,577 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('link text', '登录')元素,最多等待: 30秒
+2021-01-14 20:25:33,807 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'accounts')元素 输入值是: 
+2021-01-14 20:25:33,807 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'accounts')元素,最多等待: 30秒
+2021-01-14 20:25:33,933 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'pwd')元素 输入值是: 1234567
+2021-01-14 20:25:33,934 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'pwd')元素,最多等待: 30秒
+2021-01-14 20:25:34,094 INFO [root] [baseApi.py (base_click:28] - 正在点击:('xpath', '//form/div[3]/button')元素
+2021-01-14 20:25:34,094 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('xpath', '//form/div[3]/button')元素,最多等待: 30秒
+2021-01-14 20:25:39,427 INFO [root] [baseApi.py (base_click:28] - 正在点击:('link text', '登录')元素
+2021-01-14 20:25:39,427 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('link text', '登录')元素,最多等待: 30秒
+2021-01-14 20:25:41,110 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'accounts')元素 输入值是: yaoyao
+2021-01-14 20:25:41,110 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'accounts')元素,最多等待: 30秒
+2021-01-14 20:25:41,494 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'pwd')元素 输入值是: 
+2021-01-14 20:25:41,494 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'pwd')元素,最多等待: 30秒
+2021-01-14 20:25:41,720 INFO [root] [baseApi.py (base_click:28] - 正在点击:('xpath', '//form/div[3]/button')元素
+2021-01-14 20:25:41,721 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('xpath', '//form/div[3]/button')元素,最多等待: 30秒
+2021-01-14 20:25:47,084 INFO [root] [baseApi.py (base_click:28] - 正在点击:('link text', '登录')元素
+2021-01-14 20:25:47,084 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('link text', '登录')元素,最多等待: 30秒
+2021-01-14 20:25:49,571 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'accounts')元素 输入值是: lwx
+2021-01-14 20:25:49,572 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'accounts')元素,最多等待: 30秒
+2021-01-14 20:25:49,899 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'pwd')元素 输入值是: yaoyao
+2021-01-14 20:25:49,900 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'pwd')元素,最多等待: 30秒
+2021-01-14 20:25:50,163 INFO [root] [baseApi.py (base_click:28] - 正在点击:('xpath', '//form/div[3]/button')元素
+2021-01-14 20:25:50,163 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('xpath', '//form/div[3]/button')元素,最多等待: 30秒
+2021-01-14 20:25:55,522 INFO [root] [baseApi.py (base_click:28] - 正在点击:('link text', '登录')元素
+2021-01-14 20:25:55,522 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('link text', '登录')元素,最多等待: 30秒
+2021-01-14 20:25:57,572 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'accounts')元素 输入值是: yaoyao
+2021-01-14 20:25:57,572 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'accounts')元素,最多等待: 30秒
+2021-01-14 20:25:57,883 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'pwd')元素 输入值是: 123456
+2021-01-14 20:25:57,884 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'pwd')元素,最多等待: 30秒
+2021-01-14 20:25:58,077 INFO [root] [baseApi.py (base_click:28] - 正在点击:('xpath', '//form/div[3]/button')元素
+2021-01-14 20:25:58,077 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('xpath', '//form/div[3]/button')元素,最多等待: 30秒
+2021-01-14 20:26:03,465 INFO [root] [baseApi.py (base_click:28] - 正在点击:('link text', '登录')元素
+2021-01-14 20:26:03,465 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('link text', '登录')元素,最多等待: 30秒
+2021-01-14 20:26:05,344 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'accounts')元素 输入值是: yaoyao
+2021-01-14 20:26:05,344 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'accounts')元素,最多等待: 30秒
+2021-01-14 20:26:05,689 INFO [root] [baseApi.py (base_input:33] - 正在输入：('name', 'pwd')元素 输入值是: yaoyao
+2021-01-14 20:26:05,689 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('name', 'pwd')元素,最多等待: 30秒
+2021-01-14 20:26:05,952 INFO [root] [baseApi.py (base_click:28] - 正在点击:('xpath', '//form/div[3]/button')元素
+2021-01-14 20:26:05,952 INFO [root] [baseApi.py (base_find_element:21] - 正在查找元素：('xpath', '//form/div[3]/button')元素,最多等待: 30秒

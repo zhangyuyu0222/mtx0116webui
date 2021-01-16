@@ -1,0 +1,344 @@
+{
+  "uid" : "92734e5a5393b84b",
+  "name" : "新增地址测试用例",
+  "fullName" : "case.test_addaddr.TestAddAddr#test_addaddr",
+  "historyId" : "7bceda3db0180e00d422a70a3a9929f7",
+  "time" : {
+    "start" : 1610767310223,
+    "stop" : 1610767337139,
+    "duration" : 26916
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '新增成功' in '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>我的地址 - 码同学实战系统</title>\\n\\t<meta name=\"keywo...ult\"></div> <div id=\"edui20_content\" class=\"edui-popup-content edui-default\">  </div> </div></div></div></body></html>'\n +  where '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>我的地址 - 码同学实战系统</title>\\n\\t<meta name=\"keywo...ult\"></div> <div id=\"edui20_content\" class=\"edui-popup-content edui-default\">  </div> </div></div></div></body></html>' = <lesson13.lesson13_1买裙子调用类.base.baseApi.Base object at 0x0000023D447102E0>.base_page_source\n +    where <lesson13.lesson13_1买裙子调用类.base.baseApi.Base object at 0x0000023D447102E0> = <lesson13.lesson13_1买裙子调用类.case.test_addaddr.TestAddAddr object at 0x0000023D447101C0>.base",
+  "statusTrace" : "self = <lesson13.lesson13_1买裙子调用类.case.test_addaddr.TestAddAddr object at 0x0000023D447101C0>\n\n    @allure.title('新增地址测试用例')\n    def test_addaddr(self):\n        self.addaddr.add_addr_business()\n        time.sleep(3)\n>       assert '新增成功' in self.base.base_page_source\nE       assert '新增成功' in '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>我的地址 - 码同学实战系统</title>\\n\\t<meta name=\"keywo...ult\"></div> <div id=\"edui20_content\" class=\"edui-popup-content edui-default\">  </div> </div></div></div></body></html>'\nE        +  where '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>我的地址 - 码同学实战系统</title>\\n\\t<meta name=\"keywo...ult\"></div> <div id=\"edui20_content\" class=\"edui-popup-content edui-default\">  </div> </div></div></div></body></html>' = <lesson13.lesson13_1买裙子调用类.base.baseApi.Base object at 0x0000023D447102E0>.base_page_source\nE        +    where <lesson13.lesson13_1买裙子调用类.base.baseApi.Base object at 0x0000023D447102E0> = <lesson13.lesson13_1买裙子调用类.case.test_addaddr.TestAddAddr object at 0x0000023D447101C0>.base\n\ncase\\test_addaddr.py:38: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1610767291550,
+      "stop" : 1610767291674,
+      "duration" : 124
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1610767291674,
+      "stop" : 1610767310220,
+      "duration" : 18546
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "在首页点击登录按钮",
+      "time" : {
+        "start" : 1610767305120,
+        "stop" : 1610767306879,
+        "duration" : 1759
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1610767306879,
+        "stop" : 1610767307010,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'yaoyao'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1610767307010,
+        "stop" : 1610767307144,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'yaoyao'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1610767307144,
+        "stop" : 1610767307217,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '新增成功' in '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>我的地址 - 码同学实战系统</title>\\n\\t<meta name=\"keywo...ult\"></div> <div id=\"edui20_content\" class=\"edui-popup-content edui-default\">  </div> </div></div></div></body></html>'\n +  where '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>我的地址 - 码同学实战系统</title>\\n\\t<meta name=\"keywo...ult\"></div> <div id=\"edui20_content\" class=\"edui-popup-content edui-default\">  </div> </div></div></div></body></html>' = <lesson13.lesson13_1买裙子调用类.base.baseApi.Base object at 0x0000023D447102E0>.base_page_source\n +    where <lesson13.lesson13_1买裙子调用类.base.baseApi.Base object at 0x0000023D447102E0> = <lesson13.lesson13_1买裙子调用类.case.test_addaddr.TestAddAddr object at 0x0000023D447101C0>.base",
+    "statusTrace" : "self = <lesson13.lesson13_1买裙子调用类.case.test_addaddr.TestAddAddr object at 0x0000023D447101C0>\n\n    @allure.title('新增地址测试用例')\n    def test_addaddr(self):\n        self.addaddr.add_addr_business()\n        time.sleep(3)\n>       assert '新增成功' in self.base.base_page_source\nE       assert '新增成功' in '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>我的地址 - 码同学实战系统</title>\\n\\t<meta name=\"keywo...ult\"></div> <div id=\"edui20_content\" class=\"edui-popup-content edui-default\">  </div> </div></div></div></body></html>'\nE        +  where '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>我的地址 - 码同学实战系统</title>\\n\\t<meta name=\"keywo...ult\"></div> <div id=\"edui20_content\" class=\"edui-popup-content edui-default\">  </div> </div></div></div></body></html>' = <lesson13.lesson13_1买裙子调用类.base.baseApi.Base object at 0x0000023D447102E0>.base_page_source\nE        +    where <lesson13.lesson13_1买裙子调用类.base.baseApi.Base object at 0x0000023D447102E0> = <lesson13.lesson13_1买裙子调用类.case.test_addaddr.TestAddAddr object at 0x0000023D447101C0>.base\n\ncase\\test_addaddr.py:38: AssertionError",
+    "steps" : [ {
+      "name" : "在首页点击个人中心按钮",
+      "time" : {
+        "start" : 1610767310223,
+        "stop" : 1610767312748,
+        "duration" : 2525
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击我的地址",
+      "time" : {
+        "start" : 1610767313749,
+        "stop" : 1610767315494,
+        "duration" : 1745
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击新增地址",
+      "time" : {
+        "start" : 1610767317495,
+        "stop" : 1610767317706,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "进入iframe",
+      "time" : {
+        "start" : 1610767318706,
+        "stop" : 1610767318760,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入姓名",
+      "time" : {
+        "start" : 1610767319761,
+        "stop" : 1610767320104,
+        "duration" : 343
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入电话",
+      "time" : {
+        "start" : 1610767321105,
+        "stop" : 1610767321612,
+        "duration" : 507
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入省市区",
+      "time" : {
+        "start" : 1610767322613,
+        "stop" : 1610767329520,
+        "duration" : 6907
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入详细地址",
+      "time" : {
+        "start" : 1610767330520,
+        "stop" : 1610767330864,
+        "duration" : 344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入别名",
+      "time" : {
+        "start" : 1610767331864,
+        "stop" : 1610767332185,
+        "duration" : 321
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击保存",
+      "time" : {
+        "start" : 1610767333185,
+        "stop" : 1610767333555,
+        "duration" : 370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "af76b14d7d32e3c2",
+      "name" : "log",
+      "source" : "af76b14d7d32e3c2.txt",
+      "type" : "text/plain",
+      "size" : 5231
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1610767337959,
+      "stop" : 1610767340367,
+      "duration" : 2408
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "新增地址测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_addaddr"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddAddr"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BGKFH2S"
+  }, {
+    "name" : "thread",
+    "value" : "21816-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_addaddr"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "92734e5a5393b84b.json",
+  "parameterValues" : [ ]
+}

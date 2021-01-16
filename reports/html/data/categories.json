@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '新增成功' in '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>我的地址 - 码同学实战系统</title>\\n\\t<meta name=\"keywo...ult\"></div> <div id=\"edui20_content\" class=\"edui-popup-content edui-default\">  </div> </div></div></div></body></html>'\n +  where '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>我的地址 - 码同学实战系统</title>\\n\\t<meta name=\"keywo...ult\"></div> <div id=\"edui20_content\" class=\"edui-popup-content edui-default\">  </div> </div></div></div></body></html>' = <lesson13.lesson13_1买裙子调用类.base.baseApi.Base object at 0x0000023D447102E0>.base_page_source\n +    where <lesson13.lesson13_1买裙子调用类.base.baseApi.Base object at 0x0000023D447102E0> = <lesson13.lesson13_1买裙子调用类.case.test_addaddr.TestAddAddr object at 0x0000023D447101C0>.base",
+      "children" : [ {
+        "name" : "新增地址测试用例",
+        "uid" : "92734e5a5393b84b",
+        "parentUid" : "eb7503c03869b89da5d7414b494a2681",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610767310223,
+          "stop" : 1610767337139,
+          "duration" : 26916
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb7503c03869b89da5d7414b494a2681"
+    }, {
+      "name" : "AssertionError: assert '提交成功' in '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>码同学实战系统</title>\\n\\t<meta name=\"keywords\" co...ult\"></div> <div id=\"edui20_content\" class=\"edui-popup-content edui-default\">  </div> </div></div></div></body></html>'\n +  where '<html class=\"js cssanimations\"><head>\\n\\t<meta charset=\"utf-8\">\\n\\t<title>码同学实战系统</title>\\n\\t<meta name=\"keywords\" co...ult\"></div> <div id=\"edui20_content\" class=\"edui-popup-content edui-default\">  </div> </div></div></div></body></html>' = <lesson13.lesson13_1买裙子调用类.base.baseApi.Base object at 0x0000023D4493B640>.base_page_source\n +    where <lesson13.lesson13_1买裙子调用类.base.baseApi.Base object at 0x0000023D4493B640> = <lesson13.lesson13_1买裙子调用类.case.test_order.TestOrder object at 0x0000023D4495CC10>.base",
+      "children" : [ {
+        "name" : "下订单的测试用例",
+        "uid" : "df91a54811b8b689",
+        "parentUid" : "af91e646711e92f017d274976fc37176",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610767489790,
+          "stop" : 1610767506211,
+          "duration" : 16421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af91e646711e92f017d274976fc37176"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "删除购物车的测试用例",
+        "uid" : "4ab94a4eee5ea03f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610767374803,
+          "stop" : 1610767417433,
+          "duration" : 42630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
